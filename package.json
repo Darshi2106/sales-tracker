@@ -1,0 +1,11 @@
+{
+  "name": "adept-gic-lead-tracker",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "build": "node worker/build.mjs",
+    "start": "node standalone/server.mjs",
+    "account": "node standalone/account.mjs"
+  }
+}
